@@ -16,13 +16,13 @@ for i in range(n):
     element = int(input("Enter the {} element: ".format(i+1)))
     arr.append(element)
 
-print("Unsorted array:[]")
+print("Unsorted array:")
 for num in arr:
     print(num, end=" ")
 
 selectionSort(arr)
 
-print("\nSorted array:[]")
+print("\nSorted array:")
 for num in arr:
     print(num, end=" ")
 
